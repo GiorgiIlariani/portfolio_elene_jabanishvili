@@ -34,7 +34,7 @@ const NavItems = () => {
                 {item.subItems.map((subItem) => (
                   <DropdownMenuItem
                     key={subItem.href}
-                    className="py-2 px-4 text-base lg:text-lg hover:bg-[#bf677d] font-medium rounded-lg transition-colors"
+                    className="py-2 px-4 text-base lg:text-lg font-medium rounded-lg transition-colors"
                   >
                     <Link href={subItem.href} className="w-full block">
                       {subItem.text}

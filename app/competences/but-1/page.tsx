@@ -14,34 +14,76 @@ export default function CompetencesOne() {
             <span className="text-[#bf677d]">de l'organisation</span> dans son{" "}
             <span className="text-[#bf677d]">environnement</span>
           </p>
-          <p className="text-gray-600 max-w-3xl mx-auto mt-2">
+          {/* <p className="text-gray-600 max-w-3xl mx-auto mt-2">
             Les SAÉ m'ont offert l'opportunité de mettre mes compétences en
             pratique, de les valider et de travailler en équipe en répartissant
             les tâches.
-          </p>
+          </p> */}
+        </div>
+
+        <div className="flex gap-6">
+          <Card className="p-6 rounded-2xl shadow-md bg-white space-y-6">
+            <div className="flex items-center gap-4">
+              <GraduationCap className="text-[#bf677d] w-8 h-8" />
+              <h2 className="text-2xl font-bold text-[#bf677d]">
+                Environnement économique :
+              </h2>
+            </div>
+            <ul className="text-gray-700 list-disc pl-6">
+              <li>
+                Maîtrise des principales approches économiques à travers les
+              </li>
+              <li>
+                différents courants de pensée Analyse des rôles et des
+                interactions
+              </li>
+
+              <li>
+                des acteurs économiques Capacité à construire un Tableau
+                Économique
+              </li>
+
+              <li>
+                d’Ensemble (TEE) Calcul de ratios et d’agrégats économiques clés
+              </li>
+
+              <li>
+                Compréhension des mécanismes du marché, ainsi que de la
+                dynamique de l’offre et de la demande
+              </li>
+            </ul>
+          </Card>
+          <Card className="p-6 rounded-2xl shadow-md bg-white space-y-6">
+            <div className="flex items-center gap-4">
+              <GraduationCap className="text-[#bf677d] w-8 h-8" />
+              <h2 className="text-2xl font-bold text-[#bf677d]">
+                Management d’activités :
+              </h2>
+            </div>
+            <ul className="text-gray-700 list-disc pl-6">
+              <li>
+                Analyse de l’environnement interne et externe de l’entreprise à
+                travers des outils stratégiques tels que le SWOT et PESTEL
+              </li>
+              <li>
+                Études et analyses de la demande, incluant des approches
+                quantitatives et qualitatives
+              </li>
+
+              <li>
+                Maîtrise des différentes stratégies concurrentielles pour
+                positionner l’entreprise sur le marché
+              </li>
+
+              <li>Connaissances des fondamentaux du marketing.</li>
+            </ul>
+          </Card>
         </div>
 
         <Card className="p-6 rounded-2xl shadow-md bg-white space-y-6">
           <div className="flex items-center gap-4">
-            <GraduationCap className="text-pink-500 w-8 h-8" />
-            <h2 className="text-2xl font-bold text-pink-600">
-              SAÉ - Situer une organisation dans son environnement
-            </h2>
-          </div>
-          <p className="text-gray-700">
-            Nous avons réalisé une monographie d’entreprise, analysé les
-            ressources humaines et étudié l’organisation dans son environnement
-            interne et externe.
-          </p>
-          <h3 className="text-lg font-semibold">
-            Piloter les relations avec les parties prenantes
-          </h3>
-        </Card>
-
-        <Card className="p-6 rounded-2xl shadow-md bg-white space-y-6">
-          <div className="flex items-center gap-4">
             <FolderCog className="text-green-500 w-8 h-8" />
-            <h2 className="text-2xl font-bold text-pink-600">
+            <h2 className="text-2xl font-bold text-[#bf677d]">
               SAÉ - Construire une posture professionnelle
             </h2>
           </div>
@@ -55,7 +97,7 @@ export default function CompetencesOne() {
         <Card className="p-6 rounded-2xl shadow-md bg-white">
           <div className="flex items-center gap-4 mb-4">
             <Users className="text-blue-500 w-8 h-8" />
-            <h2 className="text-2xl font-bold text-pink-600">
+            <h2 className="text-2xl font-bold text-[#bf677d]">
               Psychologie sociale
             </h2>
           </div>
@@ -73,7 +115,7 @@ export default function CompetencesOne() {
         <Card className="p-6 rounded-2xl shadow-md bg-white">
           <div className="flex items-center gap-4 mb-4">
             <FolderCog className="text-yellow-500 w-8 h-8" />
-            <h2 className="text-2xl font-bold text-pink-600">
+            <h2 className="text-2xl font-bold text-[#bf677d]">
               Gestion de projet
             </h2>
           </div>
@@ -87,7 +129,7 @@ export default function CompetencesOne() {
         <Card className="p-6 rounded-2xl shadow-md bg-white">
           <div className="flex items-center gap-4 mb-4">
             <Users className="text-purple-500 w-8 h-8" />
-            <h2 className="text-2xl font-bold text-pink-600">
+            <h2 className="text-2xl font-bold text-[#bf677d]">
               Expression et communication
             </h2>
           </div>
@@ -100,7 +142,7 @@ export default function CompetencesOne() {
         <Card className="p-6 rounded-2xl shadow-md bg-white">
           <div className="flex items-center gap-4 mb-4">
             <PiggyBank className="text-emerald-500 w-8 h-8" />
-            <h2 className="text-2xl font-bold text-pink-600">
+            <h2 className="text-2xl font-bold text-[#bf677d]">
               Comptabilité et Finance
             </h2>
           </div>
